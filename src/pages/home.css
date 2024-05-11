@@ -1,0 +1,28 @@
+.my-loading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.my-product-grid{
+    display: grid;
+    max-width: 1152px;
+    min-height: 80vh;
+    margin: auto;
+    padding: 12px;
+    grid-template-columns: repeat(4, 1fr);  /* 4열로 */
+}
+
+@media (max-width: 768px) {
+    .my-product-grid{
+        grid-template-columns: repeat(3, 1fr); /* 3열로 */
+    }
+}
+
+@media (max-width: 640px) {
+    .my-product-grid{
+        grid-template-columns: repeat(2, 1fr); /* 2열로 */
+    }
+}

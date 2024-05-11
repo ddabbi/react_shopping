@@ -1,0 +1,44 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.nav-title{
+    color: darkcyan;
+    margin-left: 1.25rem;          /* px: 고정값, rem: 반응값 ( 1rem == 16px )*/
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.nav-ul{
+    display: flex;
+    padding: 0 10px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.nav-li{
+    padding: 0 10px;
+    cursor: pointer;
+    color: darkcyan;
+}
+
+@media (min-width: 640px) {
+    .nav-title
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-title
+    {
+        font-size: 1.875rem;
+    }
+}

@@ -1,0 +1,44 @@
+.flex-col-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightgray;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 0.75rem;
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 360px;
+}
+
+.full-cover-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.product-title{
+    overflow: hidden;
+    width: 10rem;
+    text-overflow: ellipsis;    /* 넘치면 ... */
+    white-space: nowrap;        /* 한줄로 */
+    font-size: 1.125rem;
+    color: black;
+
+}
+
+.add-cart-btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.add-cart-btn{
+    background: transparent;
+    color: black;
+    border: 1px solid darkgrey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
